@@ -26,5 +26,5 @@ png(filename="plot4.png")
 g <- ggplot(plotdata, aes(year,totalEmissions))
 g + geom_point(size=2) + geom_line(size=1) + 
       labs(x="Year", y=expression("Total "*PM[2.5]*" Emissions (Thousands)"), 
-           title = "Changes in Emissions from Coal Combustion-Related Sources, United States")
+           title = "Changes in Emissions from Coal Combustion-Related Sources")
 dev.off()
